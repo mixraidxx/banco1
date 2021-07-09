@@ -25,7 +25,7 @@ class _DetailCardViewState extends State<DetailCardView> {
           "Ve todas las transacciones de tu cuenta",
           Icons.history,
           OperationsHistoryView.routeName),
-      TransferItem("CVV dinámico", "Ve todas las transacciones de tu cuenta",
+      TransferItem("CVV dinámico", "Genera un código de seguridad temporal",
           Icons.credit_card_outlined, "cvv"),
       TransferItem("Estado de cuenta", "Consulta tus estados de cuenta",
           Icons.paid_outlined, OperationsHistoryView.routeName),

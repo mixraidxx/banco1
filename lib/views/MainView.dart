@@ -32,12 +32,11 @@ class _MainViewState extends State<MainView> {
         onTap: onTabTapped,
         currentIndex: _currentIndex,
         items: [
-          BottomNavigationBarItem(icon: new Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: new Icon(Icons.home), label: "Inicio"),
           BottomNavigationBarItem(
-              icon: new Icon(Icons.mail), label: "Payments"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Products"),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.settings), label: "Settings"),
+              icon: new Icon(Icons.credit_card), label: "Pagos"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Productos"),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Ajustes"),
         ],
       ),
     );

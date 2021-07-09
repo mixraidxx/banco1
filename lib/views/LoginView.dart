@@ -36,7 +36,7 @@ class LoginView extends StatelessWidget {
                   children: [
                     TextField(
                       decoration: InputDecoration(
-                        hintText: "Número celular",
+                        hintText: "Usuario",
                       ),
                     ),
                     SizedBox(
